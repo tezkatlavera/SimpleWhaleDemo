@@ -1,9 +1,8 @@
 name: CI to Docker Hub 
 
 on:
-  push:
-    tags:
-      - "v*.*.*"
+  # start manually this workflow
+  workflow_dispatch:
 
 jobs:
 
